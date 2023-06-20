@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Booking System : System Context Model</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Travel Booking System</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Travel-Booking-System_33440.html">Travel Booking System</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Sprint-2-Report_819737.html">Sprint-2 Report</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Travel Booking System : System Context Model
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Anushka Shetty</span>, last modified on Jun 03, 2023
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/1736705/2359320.png" data-image-src="attachments/1736705/2359320.png" data-height="441" data-width="828" data-unresolved-comment-count="0" data-linked-resource-id="2359320" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="SystemContextDiagram.drawio (2).png" data-base-url="https://anantshukla.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="1736705" data-linked-resource-container-version="4" data-media-id="725bcfbc-e0bd-45a6-bafb-e66124ab6252" data-media-type="file"></span><h3 id="SystemContextModel-UserRoles">User Roles</h3><div class="table-wrap"><table data-layout="default" data-local-id="df978e1f-8f82-48b9-92f9-fffa0d784d5b" class="confluenceTable"><colgroup><col style="width: 131.0px;"/><col style="width: 175.0px;"/><col style="width: 186.0px;"/><col style="width: 188.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p><strong>User Profile</strong></p></th><th class="confluenceTh"><p><strong>Description and Context</strong></p></th><th class="confluenceTh"><p><strong>Requested Information</strong></p></th><th class="confluenceTh"><p><strong>Frequency and Volume</strong></p></th></tr><tr><td class="confluenceTd"><p>Customer</p></td><td class="confluenceTd"><p>The customer role in the travel booking system refers to individuals who are looking to book touristic packages for their travels. They access the system either through a browser from any location.</p></td><td class="confluenceTd"><p>Customers can access the system to add, view and select touristic packages. They can search for available packages, view details such as destination, duration, hotel information, activities included, and prices. Customers can also view their bookings, modify or cancel them as necessary.</p></td><td class="confluenceTd"><p>Customers can interact with the system as per their needs. They can browse and search for packages at their preferred frequency. The volume of data exchanged would depend on the specific actions taken by the customer, such as searching for packages, viewing package details, or managing bookings.</p></td></tr><tr><td class="confluenceTd"><p>Agent</p></td><td class="confluenceTd"><p>The agent role in the travel booking system refers to travel agents who are responsible for managing packages, bookings, customer profiles, and generating reports. They utilize the system to create and customize touristic packages, handle customer bookings, maintain customer profiles, and perform reporting tasks. Agents can access the system through a browser.</p></td><td class="confluenceTd"><p>Agents require access to functionalities and information such as creating and managing touristic packages, managing customer profiles, making bookings for customers, modifying or canceling bookings, and generating reports on bookings and revenue.</p></td><td class="confluenceTd"><p>Agents can interact with the system as needed. The frequency and volume of data exchanged would depend on the specific actions taken by agents, such as creating or modifying packages, managing bookings and customer profiles, and generating reports.</p></td></tr></tbody></table></div><h3 id="SystemContextModel-InteractionChannels">Interaction Channels</h3><div class="table-wrap"><table data-layout="default" data-local-id="d09351b3-4c01-42b6-9160-c8ebbeb9aa20" class="confluenceTable"><colgroup><col style="width: 121.0px;"/><col style="width: 202.0px;"/><col style="width: 187.0px;"/><col style="width: 170.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p><strong>Channel</strong></p></th><th class="confluenceTh"><p><strong>Description</strong></p></th><th class="confluenceTh"><p><strong>Network</strong></p></th><th class="confluenceTh"><p><strong>Access Protocol</strong></p></th></tr><tr><td class="confluenceTd"><p>Browser</p></td><td class="confluenceTd"><p>A thin client on the user's laptop or desktop machine. It is used to access the travel booking system through a web browser. Supports Firefox V25.x and above, Internet Explorer V8.x and above, and Google Chrome V30.x and above.</p></td><td class="confluenceTd"><p>The browser connects to the travel booking system over a dedicated quarter T1 leased line. The network supports up to 2Gbps of download speed, ensuring fast and reliable data transfer.</p><p /></td><td class="confluenceTd"><p>HTTPS</p></td></tr></tbody></table></div><h3 id="SystemContextModel-ExternalSystems">External Systems</h3><div class="table-wrap"><table data-layout="default" data-local-id="b5cc1fdd-9fb0-4d82-8f1e-529884b7bb6a" class="confluenceTable"><colgroup><col style="width: 138.0px;"/><col style="width: 168.0px;"/><col style="width: 155.0px;"/><col style="width: 219.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p><strong>System Name</strong></p></th><th class="confluenceTh"><p><strong>Description</strong></p></th><th class="confluenceTh"><p><strong>Data Format and Access Protocol</strong></p></th><th class="confluenceTh"><p><strong>Nonfunctional Requirements</strong></p></th></tr><tr><td class="confluenceTd"><p>Payment Gateway</p></td><td class="confluenceTd"><p>The Payment Gateway is an external service integrated into the travel booking system that handles the processing and authorization of online payments. It facilitates secure and seamless transactions between customers and the system, ensuring the confidentiality and integrity of payment information.</p></td><td class="confluenceTd"><p>Data Format: The Payment Gateway typically utilizes structured data formats for transmitting payment-related information.</p><p>Access Protocol:</p><ul><li><p>HTTPS: The system interacts with the Payment Gateway using HTTPS protocols. It sends payment requests and receives responses over secure connections.</p></li><li><p>API : The Payment Gateway exposes a set of well-defined APIs that the travel booking system can use to initiate payment transactions.</p></li></ul></td><td class="confluenceTd"><p><strong>Compatibility:</strong> The Payment Gateway supports a wide range of payment methods, including credit cards, debit cards, digital wallets.</p><p><strong>Performance: </strong>The system is optimized for fast and efficient payment processing. It minimizes transaction latency, handles high volumes of concurrent transactions.</p><p><strong>Integration: </strong>The Payment Gateway offers seamless integration capabilities with the travel booking system. It provides well-documented APIs (Application Programming Interfaces) or SDKs (Software Development Kits) that allow the system to securely communicate with the gateway, exchange payment-related data, and receive transaction status updates.</p></td></tr><tr><td class="confluenceTd"><p>Authentication</p></td><td class="confluenceTd"><p>The Authentication System is responsible for verifying the identity of users and granting access to the travel booking system based on their credentials. It ensures that only authorized individuals can access the system and perform actions.</p></td><td class="confluenceTd"><p>Data Format: The Authentication System typically operates with structured data formats to handle user credentials securely. </p><p>Access Protocol: </p><ul><li><p>HTTP/HTTPS: The system accepts authentication requests through HTTP or HTTPS protocols.</p></li><li><p>OAuth: The system may support OAuth protocol for delegated authentication.</p></li></ul></td><td class="confluenceTd"><p><strong>Security: </strong>The Authentication System prioritizes the security of user credentials and sensitive information. It implements robust security measures such as secure communication protocols (e.g., HTTPS), and proper handling of passwords to protect against unauthorized access and data breaches.</p><p><strong>Reliability:</strong> The system is reliable and available to handle user authentication requests consistently. It minimizes downtime and ensures that users can access the system whenever needed.</p><p><strong>Performance:</strong> The Authentication System is designed to handle authentication requests efficiently, providing fast response times to users.</p></td></tr><tr><td class="confluenceTd"><p>Notification System</p></td><td class="confluenceTd"><p>The Email Notification System is responsible for sending out notifications and communications via email in the travel booking system. It facilitates communication between the system and users by delivering important updates, booking confirmations, and other relevant information through email channels.</p></td><td class="confluenceTd"><p>The Email Notification System in the travel booking system operates with a structured data format for emails, often employing MIME. It communicates using standard email protocols like SMTP for sending and receiving emails.</p></td><td class="confluenceTd"><p><strong>Reliability:</strong> The Email Notification System ensures the reliable delivery of emails, minimizing the risk of message loss or failure.</p><p><strong>Performance:</strong> The system is designed to handle a significant volume of email notifications efficiently. It optimizes the email delivery process to minimize latency and ensures timely notifications for users.</p><p><strong>Security:</strong> The Email Notification System prioritizes the security and privacy of email communications. It incorporates measures such as encryption, secure connections (e.g., TLS/SSL) to protect sensitive information contained within the emails.</p></td></tr><tr><td class="confluenceTd"><p>Database System</p></td><td class="confluenceTd"><p>The Database is an external system used by the travel booking system to store and manage data related to touristic packages, customer information, bookings, and reports. It provides persistent storage for the travel booking system's data and ensures data integrity and reliability.</p></td><td class="confluenceTd"><p>Data Format: Structured format (e.g., tables and fields in an RDBMS).<br/>Access Protocol: SQL (Standard Query Language) or suitable API (e.g., ODBC, JDBC).<br/>The Database in the travel booking system uses a structured data format, typically tables and fields in an RDBMS. It can be accessed and queried using SQL or an appropriate API like ODBC or JDBC.</p></td><td class="confluenceTd"><p><strong>Data Integrity:</strong> The Database ensures the accuracy and consistency of stored data, utilizing mechanisms such as data validation, constraints, and relational integrity rules.<br/><strong>Reliability</strong>: The Database is designed to be highly reliable, minimizing the risk of data loss or corruption through mechanisms such as backups, replication, and fault-tolerant configurations.<br/><strong>Performance</strong>: The Database is optimized to provide efficient and responsive data access and retrieval, supporting the expected workload of the travel booking system.</p></td></tr></tbody></table></div>
+                    </div>
+
+                                        <div class="pageSection group">
+                        <div class="pageSectionHeader">
+                            <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+                        </div>
+
+                        <div class="greybox" align="left">
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/1736705/1769476.png">SystemContextDiagram.drawio (1).png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/1736705/2359320.png">SystemContextDiagram.drawio (2).png</a> (image/png)
+                                <br/>
+                                                    </div>
+                    </div>
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on Jun 20, 2023 18:38</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

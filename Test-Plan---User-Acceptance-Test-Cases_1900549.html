@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Booking System : Test Plan - User Acceptance Test Cases</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Travel Booking System</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Travel-Booking-System_33440.html">Travel Booking System</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Sprint-2-Report_819737.html">Sprint-2 Report</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Travel Booking System : Test Plan - User Acceptance Test Cases
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Manan Paruthi</span>, last modified by <span class='editor'> Anushka Shetty</span> on Jun 10, 2023
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <div class="table-wrap"><table data-layout="full-width" data-local-id="5ebe1445-75b8-4b62-8269-1314cfad888d" class="confluenceTable"><colgroup><col style="width: 63.0px;"/><col style="width: 177.0px;"/><col style="width: 219.0px;"/><col style="width: 459.0px;"/><col style="width: 218.0px;"/><col style="width: 61.0px;"/><col style="width: 135.0px;"/><col style="width: 107.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p>UAT ID#</p></th><th class="confluenceTh"><p>User Story</p></th><th class="confluenceTh"><p>Preconditions / Data</p></th><th class="confluenceTh"><p>Steps To Execute</p></th><th class="confluenceTh"><p>Expected Results</p></th><th class="confluenceTh"><p><strong>Pass/Fail</strong></p></th><th class="confluenceTh"><p>Retest Date</p></th><th class="confluenceTh"><p>Defect / Comments</p></th></tr><tr><td class="confluenceTd"><p>TC01</p></td><td class="confluenceTd"><p>As a customer, I want to create a booking for the selected package, so that I can plan my travel arrangements independently.</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as a Customer</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as a customer</p></li><li><p>Navigate to the &quot;Create Booking&quot; section.</p></li><li><p>Verify that the &quot;Create Booking&quot; form is displayed with the following fields:</p><ul><li><p>Customer Id</p></li><li><p>Travel Package Id</p></li><li><p>Departure Date</p></li></ul></li></ol><p> 4. Enter valid data into the above fields:</p><p> 5. Click on the &quot;Create Booking&quot; button</p></td><td class="confluenceTd"><ol start="1"><li><p>Create Booking page opens successfully.</p></li><li><p>User is able to enter details in all the fields successfully.</p></li><li><p>Booking is created successfully.</p></li><li><p>Created Booking is added to the List of bookings.</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p> </p></td><td class="confluenceTd"><p> </p></td></tr><tr><td class="confluenceTd"><p>TC02</p></td><td class="confluenceTd"><p>As a customer, I want to view my bookings and their details, so that I can keep track of my travel plans.</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as a Customer</p></li><li><p>The user should have made the booking successfully </p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as a customer</p></li><li><p>Navigate to the &quot;View Bookings&quot; section.</p></li><li><p>Verify that the list of all created bookings is displayed</p></li><li><p>Verify that the displayed information matches the actual details</p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>The customer should be able to access the &quot;View Bookings&quot; section.</p></li><li><p>The customer should be able to view a list of bookings done.</p></li><li><p>The displayed information should match the actual details of the travel package.</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p>TC03</p></td><td class="confluenceTd"><p>As an agent, I want to modify bookings upon customer requests like change in dates, add/remove activities, etc., so that I can accommodate their travel preferences</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as an Agent</p></li><li><p>The user should have made the booking successfully </p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as an agent</p></li><li><p>Navigate to the &quot;Update Bookings&quot; section.</p></li><li><p>Enter valid data into the fields which you want to update: </p><ul><li><p>Customer Id</p></li><li><p>Travel Package Id</p></li><li><p>Departure Date</p></li></ul></li><li><p>Click on the &quot;Update Booking&quot; button</p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>Update Booking page opens successfully.</p></li><li><p>User is able to update details in all the fields successfully.</p></li><li><p>Booking is created successfully.</p></li><li><p>Update Booking is added to the List of bookings.</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p>TC04</p></td><td class="confluenceTd"><p>As an agent, I want to view reports on customer bookings and revenue, so that I can assess the performance of the business.</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as an Agent</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as an agent</p></li><li><p>Navigate to the &quot;Get Bookings Report&quot; section</p></li><li><p>Verify the report which shows revenue by travel package</p></li><li><p>Verify that the displayed information matches the actual details</p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>The agent should be able to access the &quot;Get Bookings Report&quot; section.</p></li><li><p>The agent should be able to view a list of bookings done and number of bookings</p></li><li><p>The displayed information should match the actual details of the travel package and its bookings</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p>TC05</p></td><td class="confluenceTd"><p>As an agent, I want to send notifications to customers regarding their bookings, so that they stay informed.</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as an Agent</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as an agent</p></li><li><p>Navigate to the &quot;Create Booking&quot; section.</p></li><li><p>Create the booking successfully </p></li><li><p>Notification is automatically sent to the customer on booking</p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>User is able to receive Email notification after the booking is done successfully</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p>TC06</p></td><td class="confluenceTd"><p>As an agent, I want to manage agent accounts (update profile), so that I can control access and permissions.</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as an Agent</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as an agent</p></li><li><p>Navigate to the &quot;Update Profile&quot; section.</p></li><li><p>Enter valid data into the fields which you want to update: </p><ul><li><p>First Name</p></li><li><p>Last Name</p></li><li><p>Date of Birth</p></li></ul></li><li><p>Click on the &quot;Update Profile&quot; button</p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>Update Profile page opens successfully.</p></li><li><p>User is able to update details in all the fields successfully.</p></li><li><p>Profile is updated successfully.</p></li><li><p>Updated Profile changes are visible.</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr></tbody></table></div>
+                    </div>
+
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on Jun 20, 2023 18:38</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

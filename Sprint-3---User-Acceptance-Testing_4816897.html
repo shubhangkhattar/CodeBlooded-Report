@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Booking System : Sprint 3 - User Acceptance Testing</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Travel Booking System</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Travel-Booking-System_33440.html">Travel Booking System</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Sprint-3-Report_3407873.html">Sprint-3 Report</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Travel Booking System : Sprint 3 - User Acceptance Testing
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Shubhang Khattar</span>, last modified on Jun 18, 2023
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <div class="table-wrap"><table data-layout="full-width" data-local-id="5ebe1445-75b8-4b62-8269-1314cfad888d" class="confluenceTable"><colgroup><col style="width: 93.0px;"/><col style="width: 219.0px;"/><col style="width: 272.0px;"/><col style="width: 572.0px;"/><col style="width: 270.0px;"/><col style="width: 75.0px;"/><col style="width: 167.0px;"/><col style="width: 132.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p>UAT ID#</p></th><th class="confluenceTh"><p>User Story</p></th><th class="confluenceTh"><p>Preconditions / Data</p></th><th class="confluenceTh"><p>Steps To Execute</p></th><th class="confluenceTh"><p>Expected Results</p></th><th class="confluenceTh"><p><strong>Pass/Fail</strong></p></th><th class="confluenceTh"><p>Retest Date</p></th><th class="confluenceTh"><p>Defect / Comments</p></th></tr><tr><td class="confluenceTd"><p>TC01</p></td><td class="confluenceTd"><p>As a customer, I want to provide my payment information securely, so that I can complete the booking process.</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as a Customer</p></li><li><p>The user should have a supported valid card.</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as a customer</p></li><li><p>Navigate to the &quot;Create Booking&quot; section.</p></li><li><p>Verify that the &quot;Create Booking&quot; form is displayed with the following fields and  enter valid data for the fields.</p></li></ol><p>5.  Click on the &quot;Provide payment details&quot; button.</p><p>6. Enter Card Details.</p><p>7. Click on the “Pay“ button</p></td><td class="confluenceTd"><ol start="1"><li><p>Money is debited from the customer's account.</p></li><li><p>A payment status message is displayed to the customer.</p></li><li><p>Booking is created successfully.</p></li><li><p>Created Booking is added to the List of bookings.</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p> </p></td><td class="confluenceTd"><p> </p></td></tr><tr><td class="confluenceTd"><p>TC02</p></td><td class="confluenceTd"><p>As a customer, I want to receive confirmation of my payment and booking so that I have proof of payment and booking.</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as a Customer</p></li><li><p>The payment was successful</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>User (Customer) should make the successful payment for the booking</p></li><li><p>Customer should check their email for payment confirmation and successful booking details. </p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>The customer receives an email for a successful payment.</p></li><li><p>Verify that the list of all created bookings is displayed</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p>TC03</p></td><td class="confluenceTd"><p>As an agent, I want to integrate a payment processing API into the system, so that payments can be made by the customer using the application.</p></td><td class="confluenceTd"><ul><li><p>The agent has an active stripe account.</p></li><li><p>The agent has a valid private and public API keys.</p></li><li><p>The agent has completed all the steps at stripe dashboard required to process payment such as bank details.</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>The agent needs create a developer account on stripe <a class="external-link" data-card-appearance="inline" href="https://stripe.com/en-ca" rel="nofollow">https://stripe.com/en-ca</a> .</p></li><li><p>The agent activates the developer API keys. </p></li><li><p>The agent provides the necessary details at stripe dashboard such as bank details and verification.</p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>Payment integration is successful</p></li><li><p>Agent successfully receives the payment in their bank account.</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p>TC04</p></td><td class="confluenceTd"><p>As a customer, I want the ability to cancel bookings within the system, ensuring my reservations are properly cancelled and refunded if applicable.</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as a Customer</p></li><li><p>The user should have a complete booking.</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as a customer</p></li><li><p>Navigate to the &quot;View Bookings&quot; section.</p></li><li><p>Select the booking customer wants to cancel.</p></li><li><p>Click on cancel booking option.</p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>The booking is successfully cancelled.</p></li><li><p>The customer receives the refund if applicable.</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p>TC05</p></td><td class="confluenceTd"><p>As an agent, I want the capability to cancel bookings on behalf of customers within the system, ensuring their reservations are properly canceled and refunded if applicable.</p></td><td class="confluenceTd"><ul><li><p>The booking should already be created with completed payment.</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as a agent</p></li><li><p>Navigate to the &quot;View Bookings&quot; section.</p></li><li><p>Select the booking agents wants to cancel.</p></li><li><p>Click on cancel booking option.</p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>The booking is successfully cancelled.</p></li><li><p>The customer receives the refund if applicable.</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr><tr><td class="confluenceTd"><p>TC06</p></td><td class="confluenceTd"><p>As an agent, I need the ability to delete travel packages that were created on the system, allowing me to remove outdated or unavailable travel options and keep the listings up-to-date.</p></td><td class="confluenceTd"><ul><li><p>The user should be already registered</p></li><li><p>The user should be registered as a Agent</p></li></ul></td><td class="confluenceTd"><ol start="1"><li><p>Launch the application and log in as a agent</p></li><li><p>Navigate to the &quot;View Travel Package&quot; section.</p></li><li><p>Select the package agents wants to cancel.</p></li><li><p>Click on delete package option.</p></li></ol></td><td class="confluenceTd"><ol start="1"><li><p>The travel package is not visible under “view packages“ to the agent.</p></li><li><p>The travel package is not visible under “view packages“ to the customer.</p></li></ol></td><td class="confluenceTd"><p>Pass</p></td><td class="confluenceTd"><p /></td><td class="confluenceTd"><p /></td></tr></tbody></table></div>
+                    </div>
+
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on Jun 20, 2023 18:38</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>
